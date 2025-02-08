@@ -121,7 +121,7 @@ jobs:
                 # shellcheck disable=SC1090
                 source "${file}"
                 for suite in "${COMPATIBLE_SUITES[@]}"; do
-                    if [ "${suite}" == "oracular" ]; then
+                    if [ "${suite}" == "noble" ]; then
                         for flavor in "${COMPATIBLE_FLAVORS[@]}"; do
                             matrix+="{\"board\":\"$(basename "${file%.sh}")\",\"suite\":\"${suite}\",\"flavor\":\"${flavor}\"},"
                         done
