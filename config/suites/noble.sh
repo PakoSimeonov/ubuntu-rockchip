@@ -3,7 +3,7 @@
 export RELASE_NAME="Ubuntu 24.04 LTS (Noble Nombat)"
 export RELASE_VERSION="24.04"
 
-export KERNEL_REPO="https://github.com/PakoSimeonov/linux-rockchip.git"
+export KERNEL_REPO="https://github.com/armbian/linux-rockchip.git"
 export KERNEL_BRANCH="rk-6.1-rkr5"
 export KERNEL_FLAVOR="rockchip"
 
