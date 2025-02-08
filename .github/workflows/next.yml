@@ -61,7 +61,7 @@ jobs:
     strategy:
         matrix:
           suite:
-            - oracular
+            - noble
     steps:
       - name: Get more disk space
         uses: jlumbroso/free-disk-space@main
