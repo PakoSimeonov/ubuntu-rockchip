@@ -131,7 +131,7 @@ jobs:
             echo "matrix={\"include\":[${matrix::-1}]}" >> $GITHUB_OUTPUT
 
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs: [prep]
     name: Build image 
 
